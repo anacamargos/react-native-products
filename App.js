@@ -1,3 +1,11 @@
+import React from "react";
+import Routes from "./src/routes";
+import "./src/config/StatusBarConfig";
+
+const App = () => <Routes />;
+
+export default App;
+
 // import React, { Component } from "react";
 // import { StyleSheet, Text, View } from "react-native";
 
@@ -19,10 +27,3 @@
 //     justifyContent: "center"
 //   }
 // });
-
-import React from "react";
-import Routes from "./src/routes";
-
-const App = () => <Routes />;
-
-export default App;
